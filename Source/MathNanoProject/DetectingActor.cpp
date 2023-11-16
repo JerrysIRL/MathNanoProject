@@ -2,8 +2,6 @@
 
 
 #include "DetectingActor.h"
-
-#include "AITypes.h"
 #include "Components/InputComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
@@ -113,6 +111,6 @@ void ADetectingActor::Tick(float DeltaTime)
 
 	SetSpeed(DeltaTime);
 
-	auto TargetRotation = FRotator(0, GetControlRotation().Yaw, 0);
+	const auto TargetRotation = FRotator(0, GetControlRotation().Yaw, 0);
 	SetActorRotation(UKismetMathLibrary::RInterpTo_Constant(GetActorRotation(), TargetRotation, GetWorld()->DeltaTimeSeconds, RotatingSpeed));
 }
