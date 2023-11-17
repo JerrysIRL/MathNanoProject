@@ -21,6 +21,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta =(MakeEditWidget = true))
 	FVector Max;
 
+	UPROPERTY(EditAnywhere)
 	FColor BoxColor;
 
 	
@@ -32,6 +33,7 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	
 	void DrawMyBox();
 	
 
