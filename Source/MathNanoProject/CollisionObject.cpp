@@ -1,15 +1,6 @@
 
 #include "CollisionObject.h"
 
-void ACollisionObject::BeginPlay()
-{
-	Super::BeginPlay();
-}
-
-void ACollisionObject::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-}
 
 void ACollisionObject::ApplyGravity()
 {
