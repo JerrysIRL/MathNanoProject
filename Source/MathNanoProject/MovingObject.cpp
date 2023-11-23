@@ -22,6 +22,7 @@ void AMovingObject::BeginPlay()
 {
 	Super::BeginPlay();
 	Start = UKismetMathLibrary::InverseTransformLocation(Mesh->GetComponentTransform() ,Mesh->GetComponentLocation());
+	incrementing = FMath::RandRange(0, 100000);
 }
 
 // Called every frame
@@ -30,6 +31,5 @@ void AMovingObject::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	incrementing += DeltaTime;
 	float PerlinNoise = UKismetMathLibrary::PerlinNoise1D(incrementing);
-	UE_LOG(LogTemp, Warning, TEXT("Noise value: %f"), PerlinNoise);
 	Mesh->SetRelativeLocation(FMath::Lerp(Start, GoalPosition, PerlinNoise), false);
 }
