@@ -35,7 +35,7 @@ The repository is organized as follows:
 ![MovingPlatform](https://github.com/JerrysIRL/MathNanoProject/assets/113015090/c92af0e8-5c5b-47b2-87e5-314da6862235)
 
 
-# Game : Game loop using G criteria implementations
+# Game : Game loop using G criteria implementation
   - Description: An Obstacle course with the moving platforms controlled by Noise, using the same interpolating actor. It has a losing condition aswell as a winning one :)
  
 ![GameLevel](https://github.com/JerrysIRL/MathNanoProject/assets/113015090/366b1773-fc30-4c99-9550-406df1ca8c89)
