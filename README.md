@@ -4,42 +4,32 @@
 
 This repository contains my solutions for the exercises related to 'Math' Course. The goal is to implement representations for State, Interpolation, Intersection, Collision, and Noise, and create a functional game loop using these implementations.
 
-## Submission
-
-The assignment can be submitted through the following methods:
-
-- GitHub Repository (preferred)
-- Google Drive
-- Dropbox
-- Any other accessible link
-
-Ensure that the link provided is functional and grants access to the necessary files.
-
-## Project Structure
 
 The repository is organized as follows:
 
 - `exercise1/`: State
-  - Description: [Brief description of the State exercise]
-  - Files: [List of files related to the State exercise]
-
+  - Guards with vision cone
+  - Backstabbing
+  
+![Context](https://github.com/JerrysIRL/MathNanoProject/assets/113015090/dd7aa3ec-9989-4d14-a171-d708ab5dba58)
+ 
 - `exercise2/`: Interpolation
-  - Description: [Brief description of the Interpolation exercise]
-  - Files: [List of files related to the Interpolation exercise]
-
+  - Interpolating character rotation
+  - Accelerating character movement
+ 
+![Interpolation](https://github.com/JerrysIRL/MathNanoProject/assets/113015090/3743a605-7f27-4dbd-badf-9bd90ccde095)
+  
 - `exercise3/`: Intersection
-  - Description: [Brief description of the Intersection exercise]
-  - Files: [List of files related to the Intersection exercise]
+  - AABB intersection
 
+![AABBIntersection](https://github.com/JerrysIRL/MathNanoProject/assets/113015090/db7bac2d-3c93-4bae-8011-913368399ead)
 - `exercise4/`: Collision
-  - Description: [Brief description of the Collision exercise]
-  - Files: [List of files related to the Collision exercise]
-
+  - AABB box collision
+  - Gravity
+ 
+![AABBCollision](https://github.com/JerrysIRL/MathNanoProject/assets/113015090/6afa5a53-c995-4ce4-8010-fe4207803959)
+ 
 - `exercise5/`: Noise
-  - Description: [Brief description of the Noise exercise]
-  - Files: [List of files related to the Noise exercise]
+  - Moving platfrom which is controlled by 1D Perlin Noise
 
-- `game/`: Game loop using G criteria implementations
-  - Description: [Brief description of the game loop]
-  - Files: [List of files related to the game loop]
-
+![MovingPlatform](https://github.com/JerrysIRL/MathNanoProject/assets/113015090/c92af0e8-5c5b-47b2-87e5-314da6862235)
