@@ -30,7 +30,7 @@ The repository is organized as follows:
 ![AABBCollision](https://github.com/JerrysIRL/MathNanoProject/assets/113015090/6afa5a53-c995-4ce4-8010-fe4207803959)
  
 - `exercise5/`: Noise
-  - Moving platfrom which is controlled by 1D Perlin Noise
+  - Moving platfrom which is lerps by 1D Perlin Noise
 
 ![MovingPlatform](https://github.com/JerrysIRL/MathNanoProject/assets/113015090/c92af0e8-5c5b-47b2-87e5-314da6862235)
 
